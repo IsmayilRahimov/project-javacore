@@ -49,8 +49,10 @@ public class CalculateProje {
                 break;
             }
 
-            scanner.close();
 
         }
+        scanner.close();
+
+
     }
 }
