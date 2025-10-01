@@ -8,7 +8,7 @@ public class SingleProPat {
     }
 
     //  Klassın obyekti yalnız bu metod vasitəsilə əldə olunur
-    public static SingleProPat getInstance() { //
+    public static synchronized SingleProPat getInstance() { //
         if (instance == null) {
             instance = new SingleProPat();
         }
