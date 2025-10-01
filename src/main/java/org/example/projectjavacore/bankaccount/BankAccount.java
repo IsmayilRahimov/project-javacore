@@ -2,7 +2,7 @@ package org.example.projectjavacore.bankaccount;
 
 public class BankAccount {
 
-    private double balance;
+    private double balance = 1500;
 
     public synchronized void withdraw(String threadName, double amount) {
 
@@ -17,7 +17,7 @@ public class BankAccount {
             System.out.println(threadName + " emeliyyati bitdi  :  Balans -  " + balance);
             System.out.println("---------------------------------------");
         } else {
-            System.out.println("Emeliyyat ishe dushmedi: Balans kifayet etmir: ");
+            System.out.println( threadName+  " emeliyyati ishe dushmedi: Balans kifayet etmir: ");
         }
     }
 }
