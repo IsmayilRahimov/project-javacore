@@ -14,7 +14,14 @@ public class NullOptional {
 //        System.out.println(empty2.isPresent());
         Optional<String> empty3 = Optional.ofNullable(null);
         System.out.println(empty3.isPresent());
-        Optional<String> empty4 = Optional.ofNullable("");
-        System.out.println(empty4.isPresent());
+
+        try {
+
+
+            Optional<String> empty4 = Optional.ofNullable("");
+            System.out.println(empty4.isPresent());
+        } catch (NullPointerException npe) {
+            System.out.println(npe.getMessage());
+        }
     }
 }
