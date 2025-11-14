@@ -1,4 +1,4 @@
-package org.example.projectjavacore;
+package org.example.projectjavacore.weak;
 
 public class Stringbuilde {
     public static void main(String[] args) {

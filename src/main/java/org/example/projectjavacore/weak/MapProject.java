@@ -1,4 +1,4 @@
-package org.example.projectjavacore;
+package org.example.projectjavacore.weak;
 
 import java.util.*;
 
