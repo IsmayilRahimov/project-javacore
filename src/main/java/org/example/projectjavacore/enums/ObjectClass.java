@@ -21,6 +21,7 @@ public class ObjectClass {
     public static void main(String[] args) {
         ObjectClass o1 = new ObjectClass("Julia", 18, Colors.BLACK);
         System.out.println(o1.toString());
+        System.out.println(DaysForEnum.MONDAY.getDay());
 
     }
 
