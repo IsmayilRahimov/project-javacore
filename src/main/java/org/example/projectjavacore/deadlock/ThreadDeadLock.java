@@ -20,6 +20,7 @@ public class ThreadDeadLock {
             }
         });
 
+
         Thread thread2 = new Thread(() -> {
             synchronized (lock2) {
                 System.out.println("Thread 2 is waiting for lock1");
@@ -36,5 +37,6 @@ public class ThreadDeadLock {
 
         thread1.start();
         thread2.start();
+
     }
 }
