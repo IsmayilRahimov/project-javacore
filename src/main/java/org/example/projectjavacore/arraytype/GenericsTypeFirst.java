@@ -21,11 +21,23 @@ public class GenericsTypeFirst<T, L> {
     }
 
     public <T> void show(T value, L lime) {
-        if (value != null) {
+        if (value == null) {
             throw new RuntimeException("Value is null");
         }
-        if (value == lime) {
+        if (value != lime) {
             throw new RuntimeException("Value == lime");
+        }
+    }
+
+    public static void main(String[] args) {
+
+        GenericsTypeFirst<Integer, Integer> main = new GenericsTypeFirst<>();
+        try {
+            main.setValue(1);
+            main.setLime(2);
+            main.show(1, 2);
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 
