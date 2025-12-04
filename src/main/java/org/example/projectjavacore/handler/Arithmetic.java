@@ -10,6 +10,8 @@ public class Arithmetic {
             System.out.println(a / b);
         } catch (ArithmeticException e) {
             e.printStackTrace();
+            System.out.println("Xeta bas verdi : " +
+                    e.getMessage());
         }
         System.out.println("Proqram davam etsn:");
     }
