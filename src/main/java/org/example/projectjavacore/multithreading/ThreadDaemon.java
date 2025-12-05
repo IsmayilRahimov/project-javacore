@@ -17,6 +17,7 @@ public class ThreadDaemon {
         thread.setDaemon(true);
         thread.start();
         Thread.sleep(5000);
+        thread.join();
 
     }
 }
