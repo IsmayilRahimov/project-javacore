@@ -12,6 +12,7 @@ public class FileInput {
 
 
         for (String name : names) {
+            bufferedWriter.append(name);
             bufferedWriter.write(name + "\n");
         }
         bufferedWriter.close();
