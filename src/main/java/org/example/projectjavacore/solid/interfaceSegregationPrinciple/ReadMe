@@ -1,0 +1,2 @@
+Interface segregation - nisbeten boyuk interfaceleri parcalayib kicik interfaclere boluruk
+Sebeb oduki implement eden classlar butun methodlarini ovveride etmeye mecburyyet dasimasin
