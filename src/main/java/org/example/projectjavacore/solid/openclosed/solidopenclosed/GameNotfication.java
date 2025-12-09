@@ -1,4 +1,4 @@
-package org.example.projectjavacore.solidopenclosed;
+package org.example.projectjavacore.solid.openclosed.solidopenclosed;
 
 public class GameNotfication implements Notfication {
     @Override

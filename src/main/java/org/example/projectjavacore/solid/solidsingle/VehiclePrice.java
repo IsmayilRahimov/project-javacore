@@ -1,4 +1,4 @@
-package org.example.projectjavacore.solidsingle;
+package org.example.projectjavacore.solid.solidsingle;
 
 public class VehiclePrice {
 
